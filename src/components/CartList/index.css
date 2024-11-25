@@ -1,0 +1,54 @@
+.cart-list-item{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    box-shadow: 10px 5px 3px lightgray;
+    margin: 10px;
+}
+
+
+
+.cart-image{
+    width: 100px;
+    height: 100px;
+}
+.cart-title{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cart-price{
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+
+.buy-cart-button{
+    background-color: rgb(8, 8, 8);
+    color: #ffffff;
+    height: 27px;
+    width: 90px;
+    margin: 5px;
+    border-radius: 6px;
+    border-width: 0px;
+    cursor: pointer;
+
+}
+.remove-cart-button{
+    background-color: rgb(8, 8, 8);
+    color: #ffffff;
+    height: 27px;
+    width: 90px;
+    
+    border-radius: 6px;
+    border-width: 0px;
+    cursor: pointer;
+
+}

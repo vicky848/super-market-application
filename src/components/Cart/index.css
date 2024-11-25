@@ -1,0 +1,35 @@
+
+.cart-container{
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-top: 50px;
+    background-color: #ffffff;
+    margin-left: 400px;
+    margin-right: 400px;
+
+
+}
+.ul-cart-container{
+    list-style-type: none;
+}
+.total-amount-container{
+    background-color: rgb(196, 192, 9);
+    color: #0e0e0e;
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.total-amount{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: "Roboto";
+    margin-top: 10px;
+
+}

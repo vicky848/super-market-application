@@ -1,0 +1,160 @@
+.footer-container {
+    background-color: rgb(10, 10, 10);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-un-order-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-contact,
+.footer-link,
+.footer-policies,
+.footer-copy-right {
+    padding-top: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.link-item {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copy-right {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social-media {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media-heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.facebook,
+.insta,
+.twitter {
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-icon {
+    color: blue;
+    font-size: 30px;
+}
+
+.instagram-icon {
+    color: rgb(255, 17, 0);
+    font-size: 30px;
+}
+
+.twitter-icon {
+    color: rgb(15, 62, 190);
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-contact,
+    .footer-link,
+    .footer-policies,
+    .footer-copy-right {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .social-media {
+        gap: 15px;
+    }
+
+    .facebook,
+    .insta,
+    .twitter {
+        height: 40px;
+        width: 40px;
+    }
+
+    .facebook-icon,
+    .instagram-icon,
+    .twitter-icon {
+        font-size: 24px;
+    }
+
+    .social-media-heading {
+        font-size: 20px;
+    }
+
+    .copy-right {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 10px;
+    }
+
+    .footer-contact,
+    .footer-link,
+    .footer-policies,
+    .footer-copy-right {
+        padding-top: 5px;
+    }
+
+    .social-media {
+        gap: 10px;
+    }
+
+    .facebook,
+    .insta,
+    .twitter {
+        height: 35px;
+        width: 35px;
+    }
+
+    .facebook-icon,
+    .instagram-icon,
+    .twitter-icon {
+        font-size: 20px;
+    }
+
+    .social-media-heading {
+        font-size: 18px;
+    }
+
+    .copy-right {
+        font-size: 14px;
+    }
+}
